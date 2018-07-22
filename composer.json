@@ -1,0 +1,30 @@
+{
+    "name": "imliam/yii2-traits",
+    "description": "A collection of miscellaneous traits to extend parts of Yii2",
+    "keywords": [
+        "imliam",
+        "yii2",
+        "yii2-traits"
+    ],
+    "homepage": "https://github.com/imliam/yii2-traits",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Liam Hammett",
+            "email": "liam@liamhammett.com",
+            "homepage": "https://liamhammett.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "ImLiam\\Yii2Traits\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
