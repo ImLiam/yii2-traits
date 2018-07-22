@@ -59,7 +59,7 @@ trait ActiveRecordHelpers
      *
      * @param array $attributes
      * @return int|false The number of rows deleted, or `false` if the
-    *                    deletion is unsuccessful for some reason.
+     *                   deletion is unsuccessful for some reason.
      */
     public static function deleteIfExists(array $attributes)
     {

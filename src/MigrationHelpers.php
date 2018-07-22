@@ -19,9 +19,9 @@ trait MigrationHelpers
         try {
             $sql = "UPDATE {$table} SET {$column}='{$value}';";
             Yii::$app->getDb()->createCommand($sql)->queryAll();
-            echo "Default value of '{$table}.{$column}' has been set to '{$value}'." . PHP_EOL;
+            echo "Default value of '{$table}.{$column}' has been set to '{$value}'.".PHP_EOL;
         } catch (Exception $e) {
-            echo "There was an issue setting the default value of '{$table}.{$column}', please manually check the data." . PHP_EOL;
+            echo "There was an issue setting the default value of '{$table}.{$column}', please manually check the data.".PHP_EOL;
         }
     }
 }
